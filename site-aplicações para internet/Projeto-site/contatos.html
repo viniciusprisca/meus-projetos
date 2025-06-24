@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viweport" content ="width=device-width,initial-scale=1"
+        <meta charset="utf-8" /> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="HTML" />
+        <meta name="keywords"
+            content="Navegadores, Sistemas, script, css, html, javascript" />
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+        <title>contatos - 1ADS</title>
+        <style>
+            th {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: xx-large;
+                background-color: rgb(255, 0, 0);
+            }
+
+            td {
+                background-color: rgb(196, 196, 196)
+            }
+        </style>
+
+    </head>
+    <body>
+<!-- Definição do Título da Página -->
+    <header>
+        <nav>
+        <div aling"center">
+<!-- Definição do Título da Página -->
+        <h1 id="topo">Aplicações para Internet</h1>
+        | <a href="index.html">Home</a>
+        | <span class="pagina">Contatos</span>
+        | <a href="quemsomos.html"> Quem Somos </a>
+        | 
+        </div>
+        </nav>
+            <hr>
+    </header>
+        
+        <main>
+            <form name="formcadastro"  method="post" action="mailto:viniciusprisca@gmail.com">
+            <table border="0" width="80%" cellspacing="10" cellpadding="5" align="center">
+                <tr>
+                    <th colspan="2">Cadastro</th>
+                </tr>
+
+                <tr>
+
+                    <td colspan="2">
+                    <label for="f_nome">Nome:</label><br>
+                    <input type="text" id="f_nome" name="f_nome" size="200">
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>
+                        <label for="f_email">E-mail:</label><br>
+                        <input type="text" id="f_email" name="f_email" size="50">
+                    </td>
+
+                    <td>
+                        <label for="f_fone">Fone:</label><br>
+                        <input type="text" id="f_fone" name="f_fone" size="35">
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                    <label for="f_endereco">Endereço:</label>
+                    <input type="text" id="f_endereco" name="f_endereco" size="100">
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="f_cidade">Cidade:</label>
+                        <input type="text" id="f_cidade" name="f_cidade" size="50">
+                    </td>
+
+                    <td>
+                        <label for="f_estado">Estado:</label>
+                        <input type="text" id="f_estado" name="f_estado" size="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Curso:
+                        <label for="f_ads"></label><br>
+                        <input type="radio" id="f_ads" name="f_curso" value="ADS"cheked>
+                        Análise e Desenvolvimento de Sistemas <br>
+
+                        <label for="f_cc"></label>
+                        <input type="radio" id="f_cc" name="f_curso" value="CC"cheked>
+                        Ciência da Computação <br>
+
+                        <label for="f_si"></label>
+                        <input type="radio" id="f_si" name="f_curso" value="SI">
+                        Sistemas da Informação <br>
+                    </td>
+
+                    <td>
+                        <label for="f_periodo">Período:</label><br>
+
+                        <input type="radio" id="f_periodo" name="f_periodo" value="Matutino">
+                        Matutino <br>
+
+                        <input type="radio" id="f_periodo" name="f_periodo" value="Noturno"cheked>
+                        Noturno
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Componentes de formação:
+                        <label for="f_apInt"></label><br>
+                        <input type="checkbox" id="f_apInt" name="f_apInt" value="apInt">
+                        Aplicaçoes para internet <br>
+
+                        <label for="f_Modneg"></label>
+                        <input type="checkbox" id="f_Modneg" name="f_Modneg" value="Modneg">
+                        Modelagem de Negocios e Requisitos <br>
+
+                        <label for="f_org"></label>
+                        <input type="checkbox" id="f_org" name="f_org" value="org">
+                        organização e arquitetura de computadores <br>
+
+                        <label for="f_prog"></label>
+                        <input type="checkbox" id="f_prog" name="f_prog" value="prog">
+                        programação de computadores <br>
+
+                    </td>
+
+                    <td>
+                        <label for="f_opcao">opção contatos </label>
+                        <select id="f_opcao" name="f_opcao">
+                            <opition value="sugestao">Sugestão</opition>
+                            <opition value="reclamação">reclamação</opition>
+                            <opition value="Informação">Informação</opition>
+                        </select>
+                        <br>
+                        <textarea name="f_smg">
+                            digite seu texto...
+                        </textarea>    
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                    <input type="submit" value="ENVIAR">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="CANCELAR">
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+        </main>
+
+    <footer>
+        <hr>
+        <nav>
+        <div align="center"> &copy; 2025 - Desenvolvido por Vinicius Prisca de Paula </div>
+        </nav>
+    </footer>
+
+    </body>
+    
+</html>
