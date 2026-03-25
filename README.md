@@ -1,3 +1,3 @@
-# mprojetos.faculdade.ads
+# Projetos.Faculdade-ads
 
 Repositório dedicado aos meus projetos pessoais e de aprendizado em programação
